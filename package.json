@@ -1,0 +1,22 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "serve": "live-server public"
+  },
+  "author": "Shubham Thind",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "3.1.0"
+  }
+}
